@@ -1,2 +1,2 @@
 # PytorchInfinity
-Training environment on top of pytorch lightning
+Training environment on top of mmcv

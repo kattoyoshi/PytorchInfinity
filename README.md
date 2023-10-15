@@ -6,8 +6,6 @@ The main branch works with PyTorch 2.0.
 # Installation
 Please refer to [Installation](./docs/installation.md) for installation instructions.
 
-Training environment on top of mmcv
-
 # Acknowledgement
 - [mmengine](https://github.com/open-mmlab/mmengine)
 - [mmcv](https://github.com/open-mmlab/mmcv)

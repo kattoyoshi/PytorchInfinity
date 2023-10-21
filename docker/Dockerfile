@@ -74,7 +74,7 @@ RUN pip --no-cache-dir install \
 # Force albumentations not to update opencv
 RUN pip install -U albumentations --no-binary qudida,albumentations
 
-RUN mim install mmengine==0.9.0 "mmcv==2.0.1" "mmdet==3.1.0" "mmsegmentation==1.2.0" "mmdet3d==1.2.0" "mmpose==1.2.0" "mmpretrain==1.1.0"
+RUN mim install mmengine==0.9.0 "mmcv==2.0.1" "mmdet==3.2.0" "mmsegmentation==1.2.0" "mmdet3d==1.3.0" "mmpose==1.2.0" "mmpretrain==1.1.0"
 
 # ----------------------------------------------------#
 # Create non root user

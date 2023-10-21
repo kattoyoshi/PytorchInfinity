@@ -1,12 +1,15 @@
 # Introduction
+
 MMIntegrated is an open source integrated training toolbox based on [OpenMMMLab](https://openmmlab.com/) project.
 
 The main branch works with PyTorch 2.0.
 
 # Installation
+
 Please refer to [Installation](./docs/installation.md) for installation instructions.
 
 # Acknowledgement
+
 - [mmengine](https://github.com/open-mmlab/mmengine)
 - [mmcv](https://github.com/open-mmlab/mmcv)
 - [mmdetection](https://github.com/open-mmlab/mmdetection)

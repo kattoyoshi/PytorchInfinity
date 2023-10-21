@@ -8,6 +8,10 @@ The main branch works with PyTorch 2.0.
 
 Please refer to [Installation](./docs/installation.md) for installation instructions.
 
+# Code development
+
+Please use [vscode devcontainer](https://code.visualstudio.com/docs/devcontainers/containers).
+
 # Acknowledgement
 
 - [mmengine](https://github.com/open-mmlab/mmengine)

@@ -16,4 +16,6 @@ docker run --rm -it --name CONTAINER_NAME -v HOST_PATH:CONTAINER_PATH --net=host
 
 Code development of this repository is expected to be done by using vscode devcontainer.
 
-TODO: Add description
+1. Build docker container
+2. Open command palette (ctl + shift + P)
+3. Select "Dev Containers: Reopen in Container" or "Dev Containers: Rebuild and Reopen in Container"

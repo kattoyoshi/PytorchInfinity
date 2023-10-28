@@ -21,7 +21,7 @@
                 "davidhouchin.whitespace-plus",
                 "ms-python.flake8",
                 "ms-python.isort",
-                "eeyore.yapf"
+                "ms-python.black-formatter"
             ],
             "settings": {
                 "editor.renderWhitespace": "all",
@@ -30,7 +30,7 @@
                 "editor.rulers": [
                     120
                 ],
-                "editor.defaultFormatter": "eeyore.yapf",
+                "editor.defaultFormatter": "ms-python.black-formatter",
                 "editor.formatOnPaste": true,
                 "editor.formatOnSave": true,
                 "editor.formatOnType": true,
@@ -40,13 +40,14 @@
                 "workbenchi.colorTheme": "Github Dark",
                 "python.languageServer": "Pylance",
                 "flake8.args": [
-                    "--max-line-length=120"
+                    "--max-line-length=120",
+                    "--extend-ignore=E203"
                 ],
-                "yapf.args": [
-                    "--style='{based_on_style:pep8, column_limit: 120, indent_width: 4}'"
+                "black-formatter.args": [
+                    "--line-length=120"
                 ],
                 "isort.args": [
-                    "--profile=yapf"
+                    "--profile=black"
                 ]
             }
         }

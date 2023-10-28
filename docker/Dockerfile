@@ -69,12 +69,13 @@ RUN pip --no-cache-dir install \
     opencv-python-headless==4.7.0.72 \
     pre-commit \
     openmim \
+    ftfy \
     && python -m ipykernel.kernelspec
 
 # Force albumentations not to update opencv
 RUN pip install -U albumentations --no-binary qudida,albumentations
 
-RUN mim install mmengine==0.9.0 "mmcv==2.0.1" "mmdet==3.2.0" "mmsegmentation==1.2.0" "mmdet3d==1.3.0" "mmpose==1.2.0" "mmpretrain==1.1.0"
+RUN mim install mmengine==0.9.0 "mmcv==2.0.1" "mmdet==3.2.0" "mmsegmentation==1.2.1" "mmdet3d==1.3.0" "mmpose==1.2.0" "mmpretrain==1.1.0"
 
 # ----------------------------------------------------#
 # Create non root user

@@ -21,7 +21,8 @@
                 "davidhouchin.whitespace-plus",
                 "ms-python.flake8",
                 "ms-python.isort",
-                "ms-python.black-formatter"
+                "ms-python.black-formatter",
+                "bierner.markdown-mermaid"
             ],
             "settings": {
                 "editor.renderWhitespace": "all",
